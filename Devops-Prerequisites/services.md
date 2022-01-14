@@ -14,3 +14,15 @@ systemctl start Service-Name
 ```
 systemctl stop Service-Name
 ```
+### check the status of a service
+```
+systemctl status Service-Name
+```
+### configure Service for Status as a Service 
+```
+systemctl enable Service-Name
+```
+### configure Service to not Status as a Service 
+```
+systemctl disable Service-Name
+```
